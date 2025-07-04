@@ -1,0 +1,131 @@
+@charset "UTF 8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+body {
+background-image: linear-gradient(to top ,#012626 ,#01403A);
+ font-family: 'Amatic SC', cursiva , sans-serif;
+}
+main {
+  background-color: rgb(241, 231, 231);
+  border-radius: 10px;
+ width: 700px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 10px 10px 10px #012626      ;
+  background-attachment: fixed ;
+}
+h1 {     text-align: center;
+           background-color: #038C7F;
+           color: #ffffff85;
+             text-shadow:1px 0px 1px  ;
+                font-weight: 200px;
+               font-size: 60px;
+            }          
+h2 {
+      font-size: 50px;
+    color: #027368;
+
+
+   }
+   p{
+
+      font-size: 40px;
+
+   }
+
+h3 {
+          padding-left: 20px;
+       text-align: right;
+       color: #038C7F;
+   }
+ a {
+       text-decoration: none;
+     color: #038C7F;
+   }
+   
+   a:hover{
+
+     color: #076969;
+   }
+   a:active {
+
+     color: #01403A;
+   }
+ img{
+     margin: 40px;
+     border-radius: 8px;
+     text-align: center;
+     margin-bottom: 0px;
+ }
+ *jj{
+     text-align: right;
+     
+ }
+ body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #ffffff; /* cor de fundo padrão */
+}
+
+.folha-canto {
+  position: fixed;
+  bottom: -155px;
+  right: -280px;
+  width: 780px;
+  height: 900px;
+  background-image: url('imagens/folhas.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; 
+  z-index: -1; 
+  pointer-events: none; /
+}
+
+.folha-canto2 {
+  position: fixed;
+  bottom: -280px;
+  left: -100px;
+  width: 700px;
+  height: 1000px;
+  background-image: url('imagens/folhas.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; 
+  z-index: -1; 
+  pointer-events: none; 
+}
+.folha-canto3 {
+  position: fixed;
+  bottom: -280px;
+  right: 400px;
+  width: 700px;
+  height: 1000px;
+  background-image: url('imagens/folhas.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; 
+  z-index: -1; 
+  pointer-events: none; 
+}
+header{
+  background-color:#038C7F;
+  margin: none;
+  padding: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+  position: relative;
+  
+}
+.texto-lateral {
+  position: absolute;
+  right: 20px; 
+  font-size: 16px;
+ 
+}
+  
